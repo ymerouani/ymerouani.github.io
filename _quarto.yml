@@ -5,7 +5,7 @@ project:
     - talks\midway_seminar.html
 website:
   title: "Youssouf Merouani"
-  site-url: https://youssoufmerouani.com
+  site-url: https://ymerouani.github.io
   description: "Techy Archives"
   open-graph:
     locale: en_US
