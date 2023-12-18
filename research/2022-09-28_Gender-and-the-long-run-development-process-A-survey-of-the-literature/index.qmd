@@ -1,0 +1,21 @@
+---
+title: "Gender and the long-run development process. A survey of the literature"
+description: |
+    Merouani, Y. & Perrin, F. (2022). Gender and the Long-Run Development Process. A Survey of the Literature. European Review of Economic History, vol. 26, no. 4, pp.612–641.
+date: 2022-09-28
+categories: ["Published"]
+image: header.jpeg
+format:
+  html:
+    df-print: paged
+    toc: true
+google-scholar: false
+---
+
+**ABSTRACT:** Why do certain countries display high gender equalities while others display low gender equalities? To what extent does gender equality foster economic growth and development? The past decade has witnessed a boom and increasing literature about the role played by women and gender in long-run economic development. The increasing awareness of economics and economic history have contributed to improve our understanding of the crucial role played by women in the process of economic development. This paper reviews the literature on the topic and opens the discussion on current challenges and avenues for future research.
+
+**Keywords**: Gender • Women • Development Process • Economic History • Survey
+
+**JEL Codes**: J16, N33, O11
+
+[Online paper](https://academic.oup.com/ereh/article/26/4/612/6725763) | [PDF](https://academic.oup.com/ereh/article-pdf/26/4/612/46781444/heac008.pdf)

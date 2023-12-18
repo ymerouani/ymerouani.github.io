@@ -1,0 +1,20 @@
+---
+title: "Small Island Societies, Livelihoods, Challenges and Opportunities during the Covid-19 Pandemic in Sweden"
+description: |
+    Rytkönen, P. I., Larsson Segerlind, T., Box, M. & Merouani, Y. (2022). Small Island Societies, Livelihoods, Challenges and Opportunities during the Covid-19 Pandemic in Sweden, Ager. Revista de Estudios sobre Despoblación y Desarrollo Rural / Journal of Depopulation and Rural Development Studies, no. 36, pp.131–158
+date: 2022-10-31
+categories: ["Published"]
+image: header.png
+format:
+  html:
+    df-print: paged
+    toc: true
+google-scholar: false
+---
+
+**ABSTRACT:** Covid-19 increased the social and economic vulnerability of island societies. Swedish islands, key tourism destinations, are also home to many island residents. Previous studies have highlighted the impact of Covid-19 on core areas, but our knowledge of its impact on island communities is lacking. Phenomenology is used to analyse how communities in small Swedish islands perceive the impact of Covid-19. Institutional theory and the concepts of social capital and accessibility are employed in the analysis. Data were collected through semi-structured interviews and focus groups with islanders and representatives of local organizations on sampled islands. Pandemic regulations affected island communities differently. Authorities and shipping companies endeavored to discourage people from visiting islands, which negatively affected tourism in some islands, while tourism increased in others. Informal institutions established a basis for good community relations; they enabled the mobilization of social capital, especially given action by local agents who were endorsed by the community. Cooperation was a key factor in reducing negative impacts. Accessibility increased on islands with well-developed and expanded IT-infrastructure, enabling holiday homeowners to work from their holiday islands. This development helped create a sustained positive economic trend for grocery stores and the construction industry.
+
+**Keywords**: Island societies • Covid-19 • institutions • social capital • accessibility
+
+[PDF](https://doi.org/10.4422/ager.2022.15)
+

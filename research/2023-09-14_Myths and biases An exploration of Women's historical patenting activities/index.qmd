@@ -1,0 +1,22 @@
+---
+title: "Myths and biases: An exploration of Women's historical patenting activities"
+description: |
+    Merouani, Y. & Perrin, F. (2023). Myths and biases: An exploration of Women's historical patenting activities. Working Papers 09-23, Association Française de Cliométrie (AFC).
+date: 2023-09-14
+categories: ["Working Paper"]
+image: header.png
+format:
+  html:
+    df-print: paged
+    toc: true
+google-scholar: false
+---
+
+**ABSTRACT:** This paper explores the representation of women inventors in historical records and
+uncovers potential biases that influence our current understanding of history. By examining a comprehensive database of nineteenth-century French patents as a case study, we discover that women filed more patents than contemporary biographical records suggest. Further, we illustrate that women’s inventive endeavors spanned all industries, challenging the perception that their contributions were confined to specific sectors. Beyond enhancing our awareness of women’s patenting endeavors, our findings underscore the need to confront systematic biases and exclusionary practices in historical documentation. Such efforts are necessary for fostering a more inclusive and accurate comprehension of women’s contributions to technological development and economic processes.
+
+**Keywords**: Patent • Innovation • Gender • Women • Nineteenth Century • France
+
+**JEL Classification**: J16, N33, O30
+
+[PDF](https://econpapers.repec.org/scripts/redir.pf?u=https%3A%2F%2Fwww.cliometrie.org%2Fimages%2Fwp%2FAFC_WP_09_2023.pdf;h=repec:afc:wpaper:09-23)

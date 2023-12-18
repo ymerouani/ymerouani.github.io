@@ -1,0 +1,30 @@
+project:
+  type: website
+  resources:
+    - Youssouf_Merouani_shortCV.pdf
+    - talks\midway_seminar.html
+website:
+  title: "Youssouf Merouani"
+  site-url: https://youssoufmerouani.com
+  description: "Techy Archives"
+  open-graph:
+    locale: en_US
+  search: 
+    location: navbar
+    type: overlay
+  navbar:
+    right:
+      - href: index.html
+        text: Home
+      - href: research
+        text: Research
+      - href: talks.html
+        text: Talks
+      - href: teaching.html
+        text: Teaching
+
+format:
+  html:
+    theme: [sandstone, _variables.scss]
+    css: styles.css
+    toc: true

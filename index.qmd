@@ -1,0 +1,45 @@
+---
+title: "Youssouf Merouani"
+image: avatar.jpg
+about:
+  template: trestles
+  links:
+    - text: LinkedIn
+      icon: linkedin
+      url: "https://se.linkedin.com/in/youmer/sv"
+    - text: Twitter
+      icon: twitter
+      url: "https://twitter.com/Y_Merouani"
+    - text: GitHub
+      icon: github
+      url: "https://github.com/ymerouani"
+    - text: "{{< fa envelope >}} Email"
+      url: "mailto:youssouf.merouani@ekh.lu.se"
+    - text: "{{< ai orcid >}} ORCID 0000-0003-2692-9996"
+      url: https://orcid.org/0000-0003-2692-9996
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      url: https://scholar.google.com/citations?user=N_GbtjsAAAAJ&hl
+    - text: CV
+      url: "Youssouf_Merouani_shortCV.pdf"
+comments: false
+---
+::: {.column-page}
+
+## Bio
+
+I’m a PhD candidate in Economic History at Lund University. My research is focused on understanding the drivers of innovation and the impact of inventions on society and industry from the end of the 18th century to today. As part of [Faustine Perrin's project](https://portal.research.lu.se/en/persons/faustine-perrin), I specifically concentrate on the role of women in the development process through their patented inventions.
+
+I specialize in building extensive, long-run databases by applying Natural Language Processing (NLP) and machine learning. This process turns unstructured data into structured resources for in-depth studies across long timespans.
+
+Click here for a list of my [papers](research.html), [talks](talks.html), information related to my [teaching activities](teaching.html), 
+and here for [my CV](Youssouf_Merouani_shortCV.pdf).
+
+<p></p>
+
+## Selected Publications
+
+**Gender and the Long-Run Development Process. A Survey of the Literature.** Merouani, Y. & Perrin, F. 2022. European Review of Economic History, vol. 26, no. 4, pp.612–641. [https://doi.org/10.1093/ereh/heac008](https://doi.org/10.1093/ereh/heac008)
+
+**Surviving on the Island: Linking Firm Survival and Contextual Factors in a Peripheral Region.** Merouani, Y., Box, M., Larsson Segerlind, T. & Rytkönen, P. 2023. In M. Xheneti, S. Costa, J. Heinonen, & A. Kurczewska (eds), Contextual Embeddedness of Entrepreneurship, Edward Elgar Publishing, pp.12–31. [https://doi.org/10.4337/9781035320684.00009](https://doi.org/10.4337/9781035320684.00009)
+
+:::

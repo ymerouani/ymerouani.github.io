@@ -1,0 +1,22 @@
+---
+title: "Ö- och skärgårdsturism under pandemin: Halvtidsrapport och Slutrapport"
+description: |
+    Rytkönen, P., Merouani, Y., Box, M. & Larsson Segerlind, T. (2021). Ö- och skärgårdsturism under pandemin: Halvtidsrapport. Working paper 2021:2. ISSN 1404-1480.
+date: 2022-09-28
+categories: ["Report"]
+image: header.png
+format:
+  html:
+    df-print: paged
+    toc: true
+google-scholar: false
+---
+
+**ABSTRACT:** Ö-samhällen kan rimligtvis antas vara extra sårbara för extern påverkan, inte minst av en sådan chock som utgjorts av Covid-19-pandemin. 
+
+Dessa rapport bygger på undersökningar som genomförts inom projektet Ö- och skärgårdsturism under pandemin, och innefattar bland annat fokusgrupper och intervjuer med företagare och representanter från en mängd svenska ö- och skärgårdsföreningar.
+
+**Keywords**: Ö-samhällen • Svenska öar • Covid-19 • pandemin • skärgårdsturism
+
+
+[Halvtidsrapport: PDF](https://www.diva-portal.org/smash/get/diva2:1577839/FULLTEXT02.pdf) | [Slutrapport: PDF](https://www.diva-portal.org/smash/get/diva2:1653293/FULLTEXT02.pdf)

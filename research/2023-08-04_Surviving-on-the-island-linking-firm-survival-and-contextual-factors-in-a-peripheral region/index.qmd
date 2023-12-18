@@ -1,0 +1,20 @@
+---
+title: "Surviving on the island: linking firm survival and contextual factors in a peripheral region"
+description: |
+    Merouani, Y., Box, M., Larsson Segerlind, T. & Rytkönen, P. (2023). Surviving on the Island: Linking Firm Survival and Contextual Factors in a Peripheral Region, in M. Xheneti, S. Costa, J. Heinonen, & A. Kurczewska (eds), Contextual Embeddedness of Entrepreneurship, Edward Elgar Publishing, pp.12–31.
+
+date: 2023-08-04
+categories: ["Published"]
+image: color.jpg
+format:
+  html:
+    df-print: paged
+    toc: true
+google-scholar: false
+---
+
+**ABSTRACT:** The lion’s share of entrepreneurship research highlights conditions in core regions, while entrepreneurship in peripheral areas has been less studied. This longitudinal study aims at exploring the interplay between the peripheral contexts of island and archipelago communities and firm outcomes - paying special attention to spatial variations and non-linear temporal dimensions. We focus on the survival of all firms active on 17 islands in the Stockholm archipelago, Sweden during a 20-year period (2000-2019). Using longitudinal multilevel modelling, we find that - despite being a seemingly ‘homogeneous’ place - spatial and temporal variations, however small, would have substantial effects on the conditions for everyday entrepreneurship in these communities. Our results show that firms located on islands with higher population density and seasonal dependability face increased probabilities of exit, while access to digital ecosystems, local services in the form of kindergartens, and year-round grocery stores decrease the probabilities of exit. Islands with thicker institutional context, indicating trust and community support, lead to higher survival rates.
+
+**Keywords**: Entrepreneurial context • Islandness • Firm survival • Everyday entrepreneurship • Peripherality
+
+[Online chapter](https://doi.org/10.4337/9781035320684.00009) | [PDF](https://www.elgaronline.com/downloadpdf/edcollchap-oa/book/9781035320684/book-part-9781035320684-9.pdf)
