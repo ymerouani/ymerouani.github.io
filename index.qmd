@@ -36,6 +36,12 @@ and here for [my CV](Youssouf_Merouani_shortCV.pdf).
 
 <p></p>
 
+## Work in Progress
+
+**Women Inventors: On the Origins of the Gender Patenting Gap** Merouani, Y. & Perrin, F. 2023. [Unpublished](research\2023-11-17_Women-Inventors-On-the-Origins-of-the-Gender-Patenting-Gap\index.qmd)
+
+**Innovation networks: Dynamics of invention during the French industrialization** Merouani, Y. 2023. [Unpublished](research\2023-11-20_Innovation-networks-Dynamics-of-invention\index.qmd)
+
 ## Selected Publications
 
 **Gender and the Long-Run Development Process. A Survey of the Literature.** Merouani, Y. & Perrin, F. 2022. European Review of Economic History, vol. 26, no. 4, pp.612–641. [https://doi.org/10.1093/ereh/heac008](https://doi.org/10.1093/ereh/heac008)

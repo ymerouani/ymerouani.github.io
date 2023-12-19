@@ -12,9 +12,7 @@ format:
 google-scholar: false
 ---
 
-**ABSTRACT:** Ö-samhällen kan rimligtvis antas vara extra sårbara för extern påverkan, inte minst av en sådan chock som utgjorts av Covid-19-pandemin. 
-
-Dessa rapport bygger på undersökningar som genomförts inom projektet Ö- och skärgårdsturism under pandemin, och innefattar bland annat fokusgrupper och intervjuer med företagare och representanter från en mängd svenska ö- och skärgårdsföreningar.
+**ABSTRACT:** Ö-samhällen kan rimligtvis antas vara extra sårbara för extern påverkan, inte minst av en sådan chock som utgjorts av Covid-19-pandemin. Dessa rapport bygger på undersökningar som genomförts inom projektet Ö- och skärgårdsturism under pandemin, och innefattar bland annat fokusgrupper och intervjuer med företagare och representanter från en mängd svenska ö- och skärgårdsföreningar.
 
 **Keywords**: Ö-samhällen • Svenska öar • Covid-19 • pandemin • skärgårdsturism
 

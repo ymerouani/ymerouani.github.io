@@ -1,0 +1,18 @@
+---
+title: "Innovation networks: Dynamics of invention during the French industrialization"
+description: |
+    Merouani, Y. (2023). Innovation networks: Dynamics of invention during the French industrialization. Unpublished.
+
+date: 2023-11-20
+categories: ["Work in Progress"]
+image: header.png
+format:
+  html:
+    df-print: paged
+    toc: true
+google-scholar: false
+---
+
+**ABSTRACT:** This study analyzes two innovation networks in 19th-century France: an inventor-only network and a full network that includes all inventors and patent agents of the period. The inventor-only network displays a sparse, disconnected structure, in contrast to the full network, which shows greater connectivity and cohesion. The analysis reveals different patterns in network connectivity and centrality. The full network follows a power-law distribution, indicating a few influential and central patent agents, unlike the more democratic inventor-only network. The inventors who exhibit relatively central positions are associated with significant cross-industry innovations, while the centrality of patent agents is due to their extensive client networks and industry ties. The study also examines gender and sectoral variations within these networks. Initially, male inventors had higher connectivity, but this trend shifted over time, possibly reflecting changing societal norms and increased women's empowerment. Sector-wise, female inventors were more actively collaborating in non-traditional fields.
+
+**Keywords**: Patent • Innovation • Networks • Patent agents • Nineteenth Century • France
