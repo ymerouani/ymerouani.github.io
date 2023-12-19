@@ -3,6 +3,7 @@ project:
   resources:
     - Youssouf_Merouani_shortCV.pdf
     - talks\midway_seminar.html
+    - CNAME
 website:
   title: "Youssouf Merouani"
   site-url: https://ymerouani.github.io
