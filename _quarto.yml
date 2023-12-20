@@ -6,8 +6,8 @@ project:
     - CNAME
 website:
   title: "Youssouf Merouani"
-  site-url: https://ymerouani.github.io
-  description: "Techy Archives"
+  site-url: youssoufmerouani.com
+  description: "The personal website of Youssouf Merouani"
   open-graph:
     locale: en_US
   search: 
