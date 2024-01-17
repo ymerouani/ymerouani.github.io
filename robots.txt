@@ -1,1 +1,1 @@
-Sitemap: https://ymerouani.github.io/sitemap.xml
+Sitemap: youssoufmerouani.com/sitemap.xml
