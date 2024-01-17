@@ -3,7 +3,7 @@ title: "Women Inventors: On the Origins of the Gender Patenting Gap"
 description: |
     Merouani, Y. & Perrin, F. (2024). Women Inventors: On the Origins of the Gender Patenting Gap. Lund Papers in Economic History 255.
 
-date: 2023-11-17
+date: 2024-01-17
 categories: ["Working Paper"]
 image: header.png
 format:
@@ -19,3 +19,4 @@ google-scholar: false
 
 **JEL Codes**: J16, N33, O11
 
+[PDF](https://portal.research.lu.se/files/169782267/LUPEH_255.pdf)
