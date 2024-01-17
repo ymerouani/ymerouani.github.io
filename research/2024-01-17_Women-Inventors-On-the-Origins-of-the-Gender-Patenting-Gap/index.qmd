@@ -1,0 +1,21 @@
+---
+title: "Women Inventors: On the Origins of the Gender Patenting Gap"
+description: |
+    Merouani, Y. & Perrin, F. (2024). Women Inventors: On the Origins of the Gender Patenting Gap. Lund Papers in Economic History 255.
+
+date: 2023-11-17
+categories: ["Working Paper"]
+image: header.png
+format:
+  html:
+    df-print: paged
+    toc: true
+google-scholar: false
+---
+
+**ABSTRACT:** The gender patenting gap is well-established and is wide. Despite important progress made over the past decades, the gap remains. Why are women underrepresented in patenting activities? What are the roots of the gender patenting gap? How did the gap evolve since the ‘modern’ patenting system was established? Our knowledge of women’s contribution to innovative activities in the past is extremely scarce. We build an original dataset covering the entirety of French patents to investigate the extent to which women patented relative to men in France during the long nineteenth century and explores the factors behind the historical gender patenting gap. We find that despite the absence of scientific and technical education opportunities for women and the presence of institutional barriers, women, including those who were married, took an active part in the innovation process. The empirical analysis conducted in the paper suggests that explanations of the origins and persistence of the gender patenting gap have to be found outside of the patent system itself.
+
+**Keywords**: Patent • Innovation • Gender • Women • Nineteenth Century • France
+
+**JEL Codes**: J16, N33, O11
+
