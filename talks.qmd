@@ -4,7 +4,7 @@ title: "Talks"
 
 ### 2024
 
-**Tailoring ML Tools for Economic History Research: The case of HISCO**
+**Tailoring ML Tools for Economic History Research: The case of HISCO.**
 Presenter, Workshop in Machine Learning, organized by Prof. Kerstin Enflo, Economic History Department, LUSEM, Lund University, January 23 2024.
 
 </br>
