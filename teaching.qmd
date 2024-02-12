@@ -27,6 +27,7 @@ title: "Teaching"
 - **Course Level**: Undergraduate course, 15 credits
 - **Your Role**: Lecturer
 - **Number of Students**: 40-70
+- **Slides**: [Lecture 1](talks\midway_seminar.html)
 - **Course Description**: The course aims to provide students with foundational knowledge in research design, methods, data collection, and implementation. The course is divided into three primary modules. My module consists of three lectures and a seminar on quantitative research in Economics and Economic History.
 
 ### Entrepreneurship: Context, Actors and Process
