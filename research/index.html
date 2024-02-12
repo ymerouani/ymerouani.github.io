@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.361">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,12 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,6 +61,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -94,22 +100,46 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="../styles.css">
-<link rel="alternate" type="application/rss+xml" title="Youssouf Merouani" href="index.xml"><meta property="og:title" content="Youssouf Merouani - Research">
-<meta property="og:image" content="youssoufmerouani.com/research/2024-01-17_Women-Inventors-On-the-Origins-of-the-Gender-Patenting-Gap/header.png">
-<meta property="og:site-name" content="Youssouf Merouani">
+<link rel="alternate" type="application/rss+xml" title="Youssouf Merouani" href="index.xml" data-external="1"><meta property="og:title" content="Youssouf Merouani - Research">
+<meta property="og:site_name" content="Youssouf Merouani">
 <meta property="og:locale" content="en_US">
-<meta property="og:image:height" content="1024">
-<meta property="og:image:width" content="1024">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Youssouf Merouani</span>
     </a>
@@ -121,25 +151,25 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../research" rel="" target="">
- <span class="menu-text">Research</span></a>
+    <a class="nav-link" href="../research"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../talks.html" rel="" target="">
- <span class="menu-text">Talks</span></a>
+    <a class="nav-link" href="../talks.html"> 
+<span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching.html" rel="" target="">
- <span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -160,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -168,7 +198,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 
 
@@ -182,224 +214,210 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Working Paper" data-listing-date-sort="1705446000000" data-listing-file-modified-sort="1705530230052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="Working Paper" data-listing-date-sort="1705446000000" data-listing-file-modified-sort="1705530230052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
 <div class="thumbnail">
-<p><a href="../research/2024-01-17_Women-Inventors-On-the-Origins-of-the-Gender-Patenting-Gap/index.html"> <img src="../research/2024-01-17_Women-Inventors-On-the-Origins-of-the-Gender-Patenting-Gap/header.png" class="thumbnail-image"> </a></p>
+<p><a href="../research/2024-01-17_Women-Inventors-On-the-Origins-of-the-Gender-Patenting-Gap/index.html" class="no-external"></a></p><a href="../research/2024-01-17_Women-Inventors-On-the-Origins-of-the-Gender-Patenting-Gap/index.html" class="no-external">
+<p><img src="../research/2024-01-17_Women-Inventors-On-the-Origins-of-the-Gender-Patenting-Gap/header.png" class="thumbnail-image"></p>
+</a><p><a href="../research/2024-01-17_Women-Inventors-On-the-Origins-of-the-Gender-Patenting-Gap/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/2024-01-17_Women-Inventors-On-the-Origins-of-the-Gender-Patenting-Gap/index.html">
 <h3 class="no-anchor listing-title">
-Women Inventors: On the Origins of the Gender Patenting Gap
+<a href="../research/2024-01-17_Women-Inventors-On-the-Origins-of-the-Gender-Patenting-Gap/index.html" class="no-external">Women Inventors: On the Origins of the Gender Patenting Gap</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/2024-01-17_Women-Inventors-On-the-Origins-of-the-Gender-Patenting-Gap/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Working Paper'); return false;">
 Working Paper
 </div>
 </div>
-<a href="../research/2024-01-17_Women-Inventors-On-the-Origins-of-the-Gender-Patenting-Gap/index.html">
 <div class="listing-description">
-<p>Merouani, Y. &amp; Perrin, F. (2024). Women Inventors: On the Origins of the Gender Patenting Gap. Lund Papers in Economic History 255.</p>
+<a href="../research/2024-01-17_Women-Inventors-On-the-Origins-of-the-Gender-Patenting-Gap/index.html" class="no-external">Merouani, Y. &amp; Perrin, F. (2024). Women Inventors: On the Origins of the Gender Patenting Gap. Lund Papers in Economic History 255. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/2024-01-17_Women-Inventors-On-the-Origins-of-the-Gender-Patenting-Gap/index.html">
+<a href="../research/2024-01-17_Women-Inventors-On-the-Origins-of-the-Gender-Patenting-Gap/index.html" class="no-external">
 <div class="listing-date">
 Jan 17, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Work in Progress" data-listing-date-sort="1700434800000" data-listing-file-modified-sort="1703016499457" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="1" data-categories="Work in Progress" data-listing-date-sort="1700434800000" data-listing-file-modified-sort="1703016499457" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162">
 <div class="thumbnail">
-<p><a href="../research/2023-11-20_Innovation-networks-Dynamics-of-invention/index.html"> <img src="../research/2023-11-20_Innovation-networks-Dynamics-of-invention/header.png" class="thumbnail-image"> </a></p>
+<p><a href="../research/2023-11-20_Innovation-networks-Dynamics-of-invention/index.html" class="no-external"></a></p><a href="../research/2023-11-20_Innovation-networks-Dynamics-of-invention/index.html" class="no-external">
+<p><img src="../research/2023-11-20_Innovation-networks-Dynamics-of-invention/header.png" class="thumbnail-image"></p>
+</a><p><a href="../research/2023-11-20_Innovation-networks-Dynamics-of-invention/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/2023-11-20_Innovation-networks-Dynamics-of-invention/index.html">
 <h3 class="no-anchor listing-title">
-Innovation networks: Dynamics of invention during the French industrialization
+<a href="../research/2023-11-20_Innovation-networks-Dynamics-of-invention/index.html" class="no-external">Innovation networks: Dynamics of invention during the French industrialization</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/2023-11-20_Innovation-networks-Dynamics-of-invention/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Work in Progress'); return false;">
 Work in Progress
 </div>
 </div>
-<a href="../research/2023-11-20_Innovation-networks-Dynamics-of-invention/index.html">
 <div class="listing-description">
-<p>Merouani, Y. (2023). Innovation networks: Dynamics of invention during the French industrialization. Unpublished.</p>
+<a href="../research/2023-11-20_Innovation-networks-Dynamics-of-invention/index.html" class="no-external">Merouani, Y. (2023). Innovation networks: Dynamics of invention during the French industrialization. Unpublished. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/2023-11-20_Innovation-networks-Dynamics-of-invention/index.html">
+<a href="../research/2023-11-20_Innovation-networks-Dynamics-of-invention/index.html" class="no-external">
 <div class="listing-date">
 Nov 20, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Working Paper" data-listing-date-sort="1694642400000" data-listing-file-modified-sort="1703016499455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="2" data-categories="Working Paper" data-listing-date-sort="1694642400000" data-listing-file-modified-sort="1703016499455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="128">
 <div class="thumbnail">
-<p><a href="../research/2023-09-14_Myths and biases An exploration of Women's historical patenting activities/index.html"> <img src="../research/2023-09-14_Myths and biases An exploration of Women's historical patenting activities/header.png" class="thumbnail-image"> </a></p>
+<p><a href="../research/2023-09-14_Myths and biases An exploration of Women's historical patenting activities/index.html" class="no-external"></a></p><a href="../research/2023-09-14_Myths and biases An exploration of Women's historical patenting activities/index.html" class="no-external">
+<p><img src="../research/2023-09-14_Myths and biases An exploration of Women's historical patenting activities/header.png" class="thumbnail-image"></p>
+</a><p><a href="../research/2023-09-14_Myths and biases An exploration of Women's historical patenting activities/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/2023-09-14_Myths and biases An exploration of Women's historical patenting activities/index.html">
 <h3 class="no-anchor listing-title">
-Myths and biases: An exploration of Women’s historical patenting activities
+<a href="../research/2023-09-14_Myths and biases An exploration of Women's historical patenting activities/index.html" class="no-external">Myths and biases: An exploration of Women’s historical patenting activities</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/2023-09-14_Myths and biases An exploration of Women's historical patenting activities/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Working Paper'); return false;">
 Working Paper
 </div>
 </div>
-<a href="../research/2023-09-14_Myths and biases An exploration of Women's historical patenting activities/index.html">
 <div class="listing-description">
-<p>Merouani, Y. &amp; Perrin, F. (2023). Myths and biases: An exploration of Women’s historical patenting activities. Working Papers 09-23, Association Française de Cliométrie (AFC).</p>
+<a href="../research/2023-09-14_Myths and biases An exploration of Women's historical patenting activities/index.html" class="no-external">Merouani, Y. &amp; Perrin, F. (2023). Myths and biases: An exploration of Women’s historical patenting activities. Working Papers 09-23, Association Française de Cliométrie (AFC). </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/2023-09-14_Myths and biases An exploration of Women's historical patenting activities/index.html">
+<a href="../research/2023-09-14_Myths and biases An exploration of Women's historical patenting activities/index.html" class="no-external">
 <div class="listing-date">
 Sep 14, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Published" data-listing-date-sort="1691100000000" data-listing-file-modified-sort="1703016499436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="3" data-categories="Published" data-listing-date-sort="1691100000000" data-listing-file-modified-sort="1703016499436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="179">
 <div class="thumbnail">
-<p><a href="../research/2023-08-04_Surviving-on-the-island-linking-firm-survival-and-contextual-factors-in-a-peripheral region/index.html"> <img src="../research/2023-08-04_Surviving-on-the-island-linking-firm-survival-and-contextual-factors-in-a-peripheral region/color.jpg" class="thumbnail-image"> </a></p>
+<p><a href="../research/2023-08-04_Surviving-on-the-island-linking-firm-survival-and-contextual-factors-in-a-peripheral region/index.html" class="no-external"></a></p><a href="../research/2023-08-04_Surviving-on-the-island-linking-firm-survival-and-contextual-factors-in-a-peripheral region/index.html" class="no-external">
+<p><img src="../research/2023-08-04_Surviving-on-the-island-linking-firm-survival-and-contextual-factors-in-a-peripheral region/color.jpg" class="thumbnail-image"></p>
+</a><p><a href="../research/2023-08-04_Surviving-on-the-island-linking-firm-survival-and-contextual-factors-in-a-peripheral region/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/2023-08-04_Surviving-on-the-island-linking-firm-survival-and-contextual-factors-in-a-peripheral region/index.html">
 <h3 class="no-anchor listing-title">
-Surviving on the island: linking firm survival and contextual factors in a peripheral region
+<a href="../research/2023-08-04_Surviving-on-the-island-linking-firm-survival-and-contextual-factors-in-a-peripheral region/index.html" class="no-external">Surviving on the island: linking firm survival and contextual factors in a peripheral region</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/2023-08-04_Surviving-on-the-island-linking-firm-survival-and-contextual-factors-in-a-peripheral region/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Published'); return false;">
 Published
 </div>
 </div>
-<a href="../research/2023-08-04_Surviving-on-the-island-linking-firm-survival-and-contextual-factors-in-a-peripheral region/index.html">
 <div class="listing-description">
-<p>Merouani, Y., Box, M., Larsson Segerlind, T. &amp; Rytkönen, P. (2023). Surviving on the Island: Linking Firm Survival and Contextual Factors in a Peripheral Region, in M. Xheneti, S. Costa, J. Heinonen, &amp; A. Kurczewska (eds), Contextual Embeddedness of Entrepreneurship, Edward Elgar Publishing, pp.12–31.</p>
+<a href="../research/2023-08-04_Surviving-on-the-island-linking-firm-survival-and-contextual-factors-in-a-peripheral region/index.html" class="no-external">Merouani, Y., Box, M., Larsson Segerlind, T. &amp; Rytkönen, P. (2023). Surviving on the Island: Linking Firm Survival and Contextual Factors in a Peripheral Region, in M. Xheneti, S. Costa, J. Heinonen, &amp; A. Kurczewska (eds), Contextual Embeddedness of Entrepreneurship, Edward Elgar Publishing, pp.12–31. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/2023-08-04_Surviving-on-the-island-linking-firm-survival-and-contextual-factors-in-a-peripheral region/index.html">
+<a href="../research/2023-08-04_Surviving-on-the-island-linking-firm-survival-and-contextual-factors-in-a-peripheral region/index.html" class="no-external">
 <div class="listing-date">
 Aug 4, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="Published" data-listing-date-sort="1667170800000" data-listing-file-modified-sort="1703016499434" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="4" data-categories="Published" data-listing-date-sort="1667170800000" data-listing-file-modified-sort="1703016499434" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
 <div class="thumbnail">
-<p><a href="../research/2022-10-31_Small-Island-Societies-Livelihoods-Challenges-and-Opportunities-during-the-Covid-19-Pandemic-in-Sweden/index.html"> <img src="../research/2022-10-31_Small-Island-Societies-Livelihoods-Challenges-and-Opportunities-during-the-Covid-19-Pandemic-in-Sweden/header.png" class="thumbnail-image"> </a></p>
+<p><a href="../research/2022-10-31_Small-Island-Societies-Livelihoods-Challenges-and-Opportunities-during-the-Covid-19-Pandemic-in-Sweden/index.html" class="no-external"></a></p><a href="../research/2022-10-31_Small-Island-Societies-Livelihoods-Challenges-and-Opportunities-during-the-Covid-19-Pandemic-in-Sweden/index.html" class="no-external">
+<p><img src="../research/2022-10-31_Small-Island-Societies-Livelihoods-Challenges-and-Opportunities-during-the-Covid-19-Pandemic-in-Sweden/header.png" class="thumbnail-image"></p>
+</a><p><a href="../research/2022-10-31_Small-Island-Societies-Livelihoods-Challenges-and-Opportunities-during-the-Covid-19-Pandemic-in-Sweden/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/2022-10-31_Small-Island-Societies-Livelihoods-Challenges-and-Opportunities-during-the-Covid-19-Pandemic-in-Sweden/index.html">
 <h3 class="no-anchor listing-title">
-Small Island Societies, Livelihoods, Challenges and Opportunities during the Covid-19 Pandemic in Sweden
+<a href="../research/2022-10-31_Small-Island-Societies-Livelihoods-Challenges-and-Opportunities-during-the-Covid-19-Pandemic-in-Sweden/index.html" class="no-external">Small Island Societies, Livelihoods, Challenges and Opportunities during the Covid-19 Pandemic in Sweden</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/2022-10-31_Small-Island-Societies-Livelihoods-Challenges-and-Opportunities-during-the-Covid-19-Pandemic-in-Sweden/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Published'); return false;">
 Published
 </div>
 </div>
-<a href="../research/2022-10-31_Small-Island-Societies-Livelihoods-Challenges-and-Opportunities-during-the-Covid-19-Pandemic-in-Sweden/index.html">
 <div class="listing-description">
-<p>Rytkönen, P. I., Larsson Segerlind, T., Box, M. &amp; Merouani, Y. (2022). Small Island Societies, Livelihoods, Challenges and Opportunities during the Covid-19 Pandemic in Sweden, Ager. Revista de Estudios sobre Despoblación y Desarrollo Rural / Journal of Depopulation and Rural Development Studies, no. 36, pp.131–158</p>
+<a href="../research/2022-10-31_Small-Island-Societies-Livelihoods-Challenges-and-Opportunities-during-the-Covid-19-Pandemic-in-Sweden/index.html" class="no-external">Rytkönen, P. I., Larsson Segerlind, T., Box, M. &amp; Merouani, Y. (2022). Small Island Societies, Livelihoods, Challenges and Opportunities during the Covid-19 Pandemic in Sweden, Ager. Revista de Estudios sobre Despoblación y Desarrollo Rural / Journal of Depopulation and Rural Development Studies, no. 36, pp.131–158 </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/2022-10-31_Small-Island-Societies-Livelihoods-Challenges-and-Opportunities-during-the-Covid-19-Pandemic-in-Sweden/index.html">
+<a href="../research/2022-10-31_Small-Island-Societies-Livelihoods-Challenges-and-Opportunities-during-the-Covid-19-Pandemic-in-Sweden/index.html" class="no-external">
 <div class="listing-date">
 Oct 31, 2022
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Report" data-listing-date-sort="1664316000000" data-listing-file-modified-sort="1703016499432" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="5" data-categories="Report" data-listing-date-sort="1664316000000" data-listing-file-modified-sort="1703016499432" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
 <div class="thumbnail">
-<p><a href="../research/2021-2022_O-och-skargardsturism-under-pandemin-rapporter/index.html"> <img src="../research/2021-2022_O-och-skargardsturism-under-pandemin-rapporter/header.png" class="thumbnail-image"> </a></p>
+<p><a href="../research/2021-2022_O-och-skargardsturism-under-pandemin-rapporter/index.html" class="no-external"></a></p><a href="../research/2021-2022_O-och-skargardsturism-under-pandemin-rapporter/index.html" class="no-external">
+<p><img src="../research/2021-2022_O-och-skargardsturism-under-pandemin-rapporter/header.png" class="thumbnail-image"></p>
+</a><p><a href="../research/2021-2022_O-och-skargardsturism-under-pandemin-rapporter/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/2021-2022_O-och-skargardsturism-under-pandemin-rapporter/index.html">
 <h3 class="no-anchor listing-title">
-Ö- och skärgårdsturism under pandemin: Halvtidsrapport och Slutrapport
+<a href="../research/2021-2022_O-och-skargardsturism-under-pandemin-rapporter/index.html" class="no-external">Ö- och skärgårdsturism under pandemin: Halvtidsrapport och Slutrapport</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/2021-2022_O-och-skargardsturism-under-pandemin-rapporter/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Report'); return false;">
 Report
 </div>
 </div>
-<a href="../research/2021-2022_O-och-skargardsturism-under-pandemin-rapporter/index.html">
 <div class="listing-description">
-<p>Rytkönen, P., Merouani, Y., Box, M. &amp; Larsson Segerlind, T. (2021). Ö- och skärgårdsturism under pandemin: Halvtidsrapport. Working paper 2021:2. ISSN 1404-1480.</p>
+<a href="../research/2021-2022_O-och-skargardsturism-under-pandemin-rapporter/index.html" class="no-external">Rytkönen, P., Merouani, Y., Box, M. &amp; Larsson Segerlind, T. (2021). Ö- och skärgårdsturism under pandemin: Halvtidsrapport. Working paper 2021:2. ISSN 1404-1480. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/2021-2022_O-och-skargardsturism-under-pandemin-rapporter/index.html">
+<a href="../research/2021-2022_O-och-skargardsturism-under-pandemin-rapporter/index.html" class="no-external">
 <div class="listing-date">
 Sep 28, 2022
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="Published" data-listing-date-sort="1664316000000" data-listing-file-modified-sort="1703016499434" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="6" data-categories="Published" data-listing-date-sort="1664316000000" data-listing-file-modified-sort="1703016499434" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
 <div class="thumbnail">
-<p><a href="../research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/index.html"> <img src="../research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/header.jpeg" class="thumbnail-image"> </a></p>
+<p><a href="../research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/index.html" class="no-external"></a></p><a href="../research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/index.html" class="no-external">
+<p><img src="../research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/header.jpeg" class="thumbnail-image"></p>
+</a><p><a href="../research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/index.html">
 <h3 class="no-anchor listing-title">
-Gender and the long-run development process. A survey of the literature
+<a href="../research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/index.html" class="no-external">Gender and the long-run development process. A survey of the literature</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Published'); return false;">
 Published
 </div>
 </div>
-<a href="../research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/index.html">
 <div class="listing-description">
-<p>Merouani, Y. &amp; Perrin, F. (2022). Gender and the Long-Run Development Process. A Survey of the Literature. European Review of Economic History, vol.&nbsp;26, no. 4, pp.612–641.</p>
+<a href="../research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/index.html" class="no-external">Merouani, Y. &amp; Perrin, F. (2022). Gender and the Long-Run Development Process. A Survey of the Literature. European Review of Economic History, vol.&nbsp;26, no. 4, pp.612–641. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/index.html">
+<a href="../research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/index.html" class="no-external">
 <div class="listing-date">
 Sep 28, 2022
 </div>
@@ -490,10 +508,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -503,8 +520,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -517,6 +543,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -560,6 +705,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -585,6 +731,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -645,6 +817,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
