@@ -13,7 +13,8 @@ about:
     - text: GitHub
       icon: github
       url: "https://github.com/ymerouani"
-    - text: "{{< fa envelope >}} Email"
+    - text: Email
+      icon: envelope
       url: "mailto:youssouf.merouani@ekh.lu.se"
     - text: "{{< ai orcid >}} ORCID 0000-0003-2692-9996"
       url: https://orcid.org/0000-0003-2692-9996
