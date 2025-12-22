@@ -6,9 +6,10 @@ title: "Talks"
 
 **Pins and Pistons: Gender and Patenting during the French Industrialization. Final Seminar.**
 Final seminar, Presenter, Economic History Department, LUSEM, Lund University, December 5 2025.
+
 Discussants: [Maria Stanfors](https://portal.research.lu.se/en/persons/maria-stanfors/) and [Alessandro Nuvolari](https://www.santannapisa.it/en/alessandro-nuvolari)
-Main supervisor: [Faustine Perrin](https://faustine-perrin.com/)
-Co-supervisor: [Josef Taalbi](https://joseftaalbi.com)
+
+Main supervisor: [Faustine Perrin](https://faustine-perrin.com/). Co-supervisor: [Josef Taalbi](https://joseftaalbi.com)
 
 Click here for the [slides](talks\final_seminar.html)
 
@@ -18,7 +19,6 @@ Click here for the [slides](talks\final_seminar.html)
 Conference session, Presenter and Organizer, The Application of Cutting-edge Technology to Economic History Research, WEHC 2025, Lund University, Sweden, July 28 2025.
 
 Click here for the [slides](talks\machine-Learning-economic-history-2025-Youssouf-Merouani.pdf)
-
 
 </br>
 
