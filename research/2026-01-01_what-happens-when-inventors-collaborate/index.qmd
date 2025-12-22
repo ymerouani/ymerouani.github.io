@@ -1,0 +1,22 @@
+---
+title: "What Happens When Inventors Collaborate? Evidence from 19th-Century French Patents"
+description: |
+    Merouani, Y. (2026). What Happens When Inventors Collaborate? Evidence from 19th-Century French Patents.
+
+date: 2026-01-01
+categories: ["Working Paper"]
+image: header.jpg
+format:
+  html:
+    df-print: paged
+    toc: true
+google-scholar: false
+---
+
+**ABSTRACT:** Collaboration was rare in nineteenth-century France, yet when inventors moved from solo work to co-patenting it reshaped their inventive activity in ways distinct from modern teamwork. Using the full universe of French patents from 1791 to 1900, text-based measures of novelty and influence derived from patent titles, and within-inventor event studies around each inventor’s first collaboration, I show that collaboration did not increase productivity or originality and produced only a short-lived rise in influence. Its durable effect was a large and persistent expansion in technological scope: first collaboration shifted roughly eleven percentage points of output outside an inventor’s historical home class. Network evidence indicates that this diversification was driven by partners from different technology classes and by repeated ties that had already crossed a technological boundary. Women, who were scarce and often entered invention through family ties, benefited disproportionately from these cross-class and repeated outside class collaborations, achieving substantially larger shifts in scope than men. The results suggest that in this historical setting collaboration functioned primarily as a channel for knowledge access and boundary-crossing rather than as a generator of more novel or more productive ideas.
+
+**Keywords**: Networks • Patent • Innovation • Collaboration • Women • Nineteenth Century • France
+
+**JEL Codes**: D85, J16, N33, O31, O34
+
+[PDF](../working_papers/Merouani-Patent-Collaboration-Networks.pdf)
