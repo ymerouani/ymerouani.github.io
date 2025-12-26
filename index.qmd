@@ -32,7 +32,7 @@ I’m a PhD candidate in Economic History at Lund University. My research is foc
 
 I specialize in building extensive, long-run databases by applying Natural Language Processing (NLP) and machine learning. This process turns unstructured data into structured resources for in-depth studies across long timespans.
 
-Click here for a list of my [papers](research\index.qmd), [talks](talks.qmd), information related to my [teaching activities](teaching.qmd), ["Kappa" draft, introductory chapter of my dissertation](research/working_papers/Merouani-Dissertation-Kappa.pdf/working_papers/Merouani-Patent-Collaboration-Networks.pdf), and here for [my Academic CV](Youssouf_Merouani_shortCV.pdf).
+Click here for a list of my [papers](research\index.qmd), [talks](talks.qmd), and [teaching activities](teaching.qmd), as well as the [draft “Kappa”](research/working_papers/Merouani-Dissertation-Kappa.pdf) (the introductory chapter of my dissertation) and [my Academic CV](Youssouf_Merouani_shortCV.pdf).
 
 <p></p>
 
