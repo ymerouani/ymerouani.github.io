@@ -32,8 +32,6 @@ I'm a PhD candidate in Economic History at Lund University, defending in Spring 
 
 My research builds large-scale patent and inventor microdata (390,000 French patents, 255,000 unique inventors, 1791–1900) to explain the gender patenting gap, trace how collaboration reshapes inventors' careers, and measure the diffusion of ideas. I develop machine-learning pipelines—Computer Vision for handwritten archives, fine-tuned transformer models, and probabilistic record linkage—to transform historical records into analyzable data.
 
-I'm supervised by [Faustine Perrin](https://portal.research.lu.se/en/persons/faustine-perrin) and [Josef Taalbi](https://portal.research.lu.se/en/persons/josef-taalbi).
-
 For more, see my [research](research/index.qmd), [talks](talks.qmd), [teaching](teaching.qmd), [dissertation introduction](research/working_papers/Merouani-Dissertation-Kappa.pdf), and [CV](Youssouf_Merouani_shortCV.pdf).
 
 <p></p>
