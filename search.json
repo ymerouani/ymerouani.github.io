@@ -46,28 +46,35 @@
     "href": "index.html",
     "title": "Youssouf Merouani",
     "section": "",
-    "text": "I’m a PhD candidate in Economic History at Lund University. My research is focused on understanding the drivers of innovation and the impact of inventions on society and industry from the end of the 18th century to today. As part of Faustine Perrin’s project, I specifically concentrate on the role of women in the development process through their patented inventions.\nI specialize in building extensive, long-run databases by applying Natural Language Processing (NLP) and machine learning. This process turns unstructured data into structured resources for in-depth studies across long timespans.\nClick here for a list of my papers, talks, and teaching activities, as well as the draft “Kappa” (the introductory chapter of my dissertation) and my Academic CV.\n\n\n\n\n\nWomen Inventors: On the Origins of the Gender Patenting Gap Merouani, Y. & Perrin, F. 2024. Lund Papers in Economic History 255.\nInnovation networks: Dynamics of invention during the French industrialization Merouani, Y. 2023. Unpublished\n\n\n\nGender and the Long-Run Development Process. A Survey of the Literature. Merouani, Y. & Perrin, F. 2022. European Review of Economic History, vol. 26, no. 4, pp.612–641. https://doi.org/10.1093/ereh/heac008\nSurviving on the Island: Linking Firm Survival and Contextual Factors in a Peripheral Region. Merouani, Y., Box, M., Larsson Segerlind, T. & Rytkönen, P. 2023. In M. Xheneti, S. Costa, J. Heinonen, & A. Kurczewska (eds), Contextual Embeddedness of Entrepreneurship, Edward Elgar Publishing, pp.12–31. https://doi.org/10.4337/9781035320684.00009"
+    "text": "I’m a PhD candidate in Economic History at Lund University, defending in Spring 2026. I study how innovation emerges—and who gets to innovate.\nMy research builds large-scale patent and inventor microdata (390,000 French patents, 255,000 unique inventors, 1791–1900) to explain the gender patenting gap, trace how collaboration reshapes inventors’ careers, and measure the diffusion of ideas. I develop machine-learning pipelines—Computer Vision for handwritten archives, fine-tuned transformer models, and probabilistic record linkage—to transform historical records into analyzable data.\nI’m supervised by Faustine Perrin and Josef Taalbi.\nFor more, see my research, talks, teaching, dissertation introduction, and CV.\n\n\n\n\n\nWhat Happens When Inventors Collaborate? Evidence from 19th-Century French Patents\nMerouani, Y. 2026. [Draft PDF]\nUsing text-based measures of novelty and influence and Sun–Abraham event studies on the full universe of French patents, I show that collaboration does not raise productivity or originality—but permanently diversifies inventors’ technological focus. Network analysis reveals that “structural holes” enable this boundary-crossing, with particularly strong effects for women inventors.\n\n\n\n\n\nWomen Inventors: On the Origins of the Gender Patenting Gap\nMerouani, Y. & Perrin, F. Forthcoming, Journal of Economic History. [Working paper version]\n\n\n\n\n\nGender and the Long-Run Development Process: A Survey of the Literature.\nMerouani, Y. & Perrin, F. 2022. European Review of Economic History, 26(4), 612–641. doi:10.1093/ereh/heac008\nMyths and Biases: An Exploration of Women’s Historical Patenting Activities.\nMerouani, Y. & Perrin, F. 2024. In C. Le Chapelain (ed.), Nineteenth Century Businesswomen, Springer. doi:10.1007/978-3-031-56411-6_13\nSurviving on the Island: Linking Firm Survival and Contextual Factors in a Peripheral Region.\nMerouani, Y., Box, M., Larsson Segerlind, T. & Rytkönen, P. 2023. In M. Xheneti et al. (eds.), Contextual Embeddedness of Entrepreneurship, Edward Elgar, 12–31. doi:10.4337/9781035320684.00009"
   },
   {
-    "objectID": "index.html#bio",
-    "href": "index.html#bio",
+    "objectID": "index.html#about",
+    "href": "index.html#about",
     "title": "Youssouf Merouani",
     "section": "",
-    "text": "I’m a PhD candidate in Economic History at Lund University. My research is focused on understanding the drivers of innovation and the impact of inventions on society and industry from the end of the 18th century to today. As part of Faustine Perrin’s project, I specifically concentrate on the role of women in the development process through their patented inventions.\nI specialize in building extensive, long-run databases by applying Natural Language Processing (NLP) and machine learning. This process turns unstructured data into structured resources for in-depth studies across long timespans.\nClick here for a list of my papers, talks, and teaching activities, as well as the draft “Kappa” (the introductory chapter of my dissertation) and my Academic CV."
+    "text": "I’m a PhD candidate in Economic History at Lund University, defending in Spring 2026. I study how innovation emerges—and who gets to innovate.\nMy research builds large-scale patent and inventor microdata (390,000 French patents, 255,000 unique inventors, 1791–1900) to explain the gender patenting gap, trace how collaboration reshapes inventors’ careers, and measure the diffusion of ideas. I develop machine-learning pipelines—Computer Vision for handwritten archives, fine-tuned transformer models, and probabilistic record linkage—to transform historical records into analyzable data.\nI’m supervised by Faustine Perrin and Josef Taalbi.\nFor more, see my research, talks, teaching, dissertation introduction, and CV."
   },
   {
-    "objectID": "index.html#work-in-progress",
-    "href": "index.html#work-in-progress",
+    "objectID": "index.html#job-market-paper",
+    "href": "index.html#job-market-paper",
     "title": "Youssouf Merouani",
     "section": "",
-    "text": "Women Inventors: On the Origins of the Gender Patenting Gap Merouani, Y. & Perrin, F. 2024. Lund Papers in Economic History 255.\nInnovation networks: Dynamics of invention during the French industrialization Merouani, Y. 2023. Unpublished"
+    "text": "What Happens When Inventors Collaborate? Evidence from 19th-Century French Patents\nMerouani, Y. 2026. [Draft PDF]\nUsing text-based measures of novelty and influence and Sun–Abraham event studies on the full universe of French patents, I show that collaboration does not raise productivity or originality—but permanently diversifies inventors’ technological focus. Network analysis reveals that “structural holes” enable this boundary-crossing, with particularly strong effects for women inventors."
+  },
+  {
+    "objectID": "index.html#forthcoming",
+    "href": "index.html#forthcoming",
+    "title": "Youssouf Merouani",
+    "section": "",
+    "text": "Women Inventors: On the Origins of the Gender Patenting Gap\nMerouani, Y. & Perrin, F. Forthcoming, Journal of Economic History. [Working paper version]"
   },
   {
     "objectID": "index.html#selected-publications",
     "href": "index.html#selected-publications",
     "title": "Youssouf Merouani",
     "section": "",
-    "text": "Gender and the Long-Run Development Process. A Survey of the Literature. Merouani, Y. & Perrin, F. 2022. European Review of Economic History, vol. 26, no. 4, pp.612–641. https://doi.org/10.1093/ereh/heac008\nSurviving on the Island: Linking Firm Survival and Contextual Factors in a Peripheral Region. Merouani, Y., Box, M., Larsson Segerlind, T. & Rytkönen, P. 2023. In M. Xheneti, S. Costa, J. Heinonen, & A. Kurczewska (eds), Contextual Embeddedness of Entrepreneurship, Edward Elgar Publishing, pp.12–31. https://doi.org/10.4337/9781035320684.00009"
+    "text": "Gender and the Long-Run Development Process: A Survey of the Literature.\nMerouani, Y. & Perrin, F. 2022. European Review of Economic History, 26(4), 612–641. doi:10.1093/ereh/heac008\nMyths and Biases: An Exploration of Women’s Historical Patenting Activities.\nMerouani, Y. & Perrin, F. 2024. In C. Le Chapelain (ed.), Nineteenth Century Businesswomen, Springer. doi:10.1007/978-3-031-56411-6_13\nSurviving on the Island: Linking Firm Survival and Contextual Factors in a Peripheral Region.\nMerouani, Y., Box, M., Larsson Segerlind, T. & Rytkönen, P. 2023. In M. Xheneti et al. (eds.), Contextual Embeddedness of Entrepreneurship, Edward Elgar, 12–31. doi:10.4337/9781035320684.00009"
   },
   {
     "objectID": "research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/index.html",
