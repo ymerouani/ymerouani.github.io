@@ -77,6 +77,13 @@
     "text": "Gender and the Long-Run Development Process: A Survey of the Literature.\nMerouani, Y. & Perrin, F. 2022. European Review of Economic History, 26(4), 612–641. doi:10.1093/ereh/heac008\nMyths and Biases: An Exploration of Women’s Historical Patenting Activities.\nMerouani, Y. & Perrin, F. 2024. In C. Le Chapelain (ed.), Nineteenth Century Businesswomen, Springer. doi:10.1007/978-3-031-56411-6_13\nSurviving on the Island: Linking Firm Survival and Contextual Factors in a Peripheral Region.\nMerouani, Y., Box, M., Larsson Segerlind, T. & Rytkönen, P. 2023. In M. Xheneti et al. (eds.), Contextual Embeddedness of Entrepreneurship, Edward Elgar, 12–31. doi:10.4337/9781035320684.00009"
   },
   {
+    "objectID": "publish_commands.html",
+    "href": "publish_commands.html",
+    "title": "Youssouf Merouani",
+    "section": "",
+    "text": "quarto render git add . git commit -m “Update website” git push quarto publish gh-pages"
+  },
+  {
     "objectID": "research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/index.html",
     "href": "research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/index.html",
     "title": "Gender and the long-run development process. A survey of the literature",
