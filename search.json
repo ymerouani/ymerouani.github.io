@@ -81,7 +81,7 @@
     "href": "publish_commands.html",
     "title": "Youssouf Merouani",
     "section": "",
-    "text": "quarto render git add . git commit -m “Update website” git push quarto publish gh-pages"
+    "text": "quarto render git add . git commit -m “Update network paper” git push quarto publish gh-pages"
   },
   {
     "objectID": "research/2022-09-28_Gender-and-the-long-run-development-process-A-survey-of-the-literature/index.html",
