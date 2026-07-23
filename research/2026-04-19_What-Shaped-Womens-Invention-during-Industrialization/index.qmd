@@ -1,0 +1,22 @@
+---
+title: "What Shaped Women's Invention during Industrialization?"
+description: |
+    Merouani, Y. (2026). What Shaped Women's Invention during Industrialization?
+
+date: 2026-04-19
+categories: ["Working Paper"]
+image: header.png
+format:
+  html:
+    df-print: paged
+    toc: true
+google-scholar: false
+---
+
+**ABSTRACT:** The local economy predicted what nineteenth-century French women invented. Their life course predicted when. I link 1,076 women who patented between 1791 and 1900 to genealogical records to examine both questions. The linkage reveals a geographic distortion: 80 percent of patent addresses fall in Paris, but civil records show that many of these women lived and married elsewhere. Using birth departments rather than patent addresses, I find that women patented in industries where local women already worked: the gender composition of employment, not its total size, was the dominant predictor of sector choice. Married women first patented at a median age of 41.5, roughly 12 years later than single women. Among mothers, the first patent followed the last recorded birth by a median of 11 years, and no department-level measure of female economic activity detectably narrowed the marriage gap. Among mothers observable through age 50, women who came of age around the 1844 patent reform patented about four years earlier than earlier cohorts. Most of this shift reflects earlier completion of childbearing and a shorter post-childbearing gap consistent with the institutional changes that followed.
+
+**Keywords**: Women inventors • Demography • Geography of innovation • Nineteenth-century France
+
+**JEL Codes**: J16, N33, O31, J13, R12
+
+[PDF](../working_papers/Merouani-Women-Inventors-Demography-Geography-Industry.pdf)
