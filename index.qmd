@@ -28,20 +28,21 @@ comments: false
 
 ## About
 
-I'm a PhD candidate in Economic History at Lund University, defending in Spring 2026. **I study how innovation emerges—and who gets to innovate.**
+I'm a Researcher in Economic History at Lund University, where I defended my PhD in June 2026. **I study how innovation emerges and who gets to innovate.**
 
-My research builds large-scale patent and inventor microdata (390,000 French patents, 255,000 unique inventors, 1791–1900) to explain the gender patenting gap, trace how collaboration reshapes inventors' careers, and measure the diffusion of ideas. I develop machine-learning pipelines—Computer Vision for handwritten archives, fine-tuned transformer models, and probabilistic record linkage—to transform historical records into analyzable data.
+In my research I build large-scale patent and inventor microdata to explain the gender patenting gap, trace how collaboration reshapes inventors' careers, and measure the diffusion of ideas. I develop machine-learning pipelines to turn historical records, including handwritten ones, into data I can analyze.
 
-For more, see my [research](research/index.qmd), [talks](talks.qmd), [teaching](teaching.qmd), [dissertation introduction](research/working_papers/Merouani-Dissertation-Kappa.pdf), and [CV](Youssouf_Merouani_shortCV.pdf).
+For more, see my [research](research/index.qmd), [talks](talks.qmd), [teaching](teaching.qmd), [dissertation](https://portal.research.lu.se/en/publications/pins-and-pistons-gender-and-patenting-during-the-french-industria/), and [CV](Youssouf_Merouani_shortCV.pdf).
 
 <p></p>
 
-## Job Market Paper
+## Featured Paper
 
-**What Happens When Inventors Collaborate? Evidence from 19th-Century French Patents**  
+**What Happens When Inventors Collaborate? Evidence from 19th-Century French Patents**
 Merouani, Y. 2026. [[Draft PDF]](research/working_papers/Merouani-Patent-Collaboration-Networks.pdf)
+*Winner of the 2026 Best Young Researcher Paper Award, International Joseph A. Schumpeter Society.*
 
-Using text-based measures of novelty and influence and Sun–Abraham event studies on the full universe of French patents, I show that collaboration does not raise productivity or originality—but permanently diversifies inventors' technological focus. Network analysis reveals that "structural holes" enable this boundary-crossing, with particularly strong effects for women inventors.
+Using text-based measures of novelty and influence and Sun–Abraham event studies on the full universe of French patents, I show that collaboration does not raise productivity or originality, but it permanently diversifies inventors' technological focus. I also use network analysis to show that "structural holes" enable this boundary-crossing, with particularly strong effects for women inventors.
 
 <p></p>
 
@@ -49,6 +50,19 @@ Using text-based measures of novelty and influence and Sun–Abraham event studi
 
 **Women Inventors: On the Origins of the Gender Patenting Gap**  
 Merouani, Y. & Perrin, F. Forthcoming, *Journal of Economic History*. [[Working paper version]](https://portal.research.lu.se/files/169782267/LUPEH_255.pdf)
+
+<p></p>
+
+## Working Papers
+
+**What Shaped Women's Invention during Industrialization?**
+Merouani, Y. 2026. [[Draft PDF]](research/working_papers/Merouani-Women-Inventors-Demography-Geography-Industry.pdf)
+
+**Technology Transfer and Innovation between Fin-de-Siècle France and Italy, 1860–1914**
+Martinez, M., Merouani, Y. & Perrin, F. Revise and resubmit, *Scandinavian Economic History Review*.
+
+**Pioneering Women: The Determinants of Women's Inventive Productivity**
+Merouani, Y. & Perrin, F. Under review.
 
 <p></p>
 

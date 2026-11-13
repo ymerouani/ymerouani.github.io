@@ -2,6 +2,22 @@
 title: "Talks"
 ---
 
+### 2026
+
+**AI in IP research: Examples and learnings from a PhD in Economic History**
+Invited talk, Fourth Interdisciplinary IP Symposium, Marstrand, Sweden, August 21 2026.
+
+Click here for the [slides](talks/AI-in-IP-research-Marstrand-2026-Youssouf-Merouani.pdf)
+
+</br>
+
+**What Happens When Inventors Collaborate? Evidence from 19th-Century French Patents**
+Research workshop and poster session, Presenter, International Schumpeter Society Conference, University of Strasbourg, France, July 1 2026.
+
+Discussant: [Alessandro Nuvolari](https://www.santannapisa.it/en/alessandro-nuvolari)
+
+The paper received the 2026 Best Young Researcher Paper Award from the International Joseph A. Schumpeter Society, presented at the conference. [Paper](research/working_papers/Merouani-Patent-Collaboration-Networks.pdf)
+
 ### 2025
 
 **Pins and Pistons: Gender and Patenting during the French Industrialization. Final Seminar.**
